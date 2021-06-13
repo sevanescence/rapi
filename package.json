@@ -1,0 +1,22 @@
+{
+    "name": "rapi",
+    "version": "1.0.0",
+    "description": "R API built for SigmaSwan",
+    "main": "src/server.js",
+    "scripts": {
+        "test": "nodemon src/server.js 80 C:\\\\Program%20Files\\\\R\\\\R-4.1.0\\\\bin\\\\Rscript"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/makotomiyamoto/rapi.git"
+    },
+    "author": "[\"MakotoMiyamoto\", \"Helioman888\"]",
+    "license": "GPL-3.0",
+    "bugs": {
+        "url": "https://github.com/makotomiyamoto/rapi/issues"
+    },
+    "homepage": "https://github.com/makotomiyamoto/rapi#readme",
+    "dependencies": {
+        "express": "^4.17.1"
+    }
+}
